@@ -2,97 +2,187 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5441b5b4-bda7-47e7-98a6-bff89f8aa2fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/wpf-degree/css/estilos-css.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/wpf-degree/js/estilos.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/gallery.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/blog-archive.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/blog-single.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/contact.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/course-archive.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/events-archive.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/events-single.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/footer.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/head.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/scholarship.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/simple-slider.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/simple.erb" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\404.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\buttons\icons\cross.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\buttons\icons\key.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\buttons\icons\tick.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\buttons\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\buttons\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\fancy-type\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\fancy-type\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\doc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\email.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\external.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\feed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\im.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\visited.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\icons\xls.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\link-icons\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\rtl\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\plugins\rtl\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\print.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\src\forms.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\src\grid.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\src\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\src\ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\src\print.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\src\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\blueprint-css\src\typography.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\assets\images\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shAutoloader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushAS3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushAppleScript.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushBash.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushCSharp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushColdFusion.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushCpp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushCss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushDelphi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushDiff.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushErlang.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushGroovy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushJScript.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushJava.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushJavaFX.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushPerl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushPhp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushPlain.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushPowerShell.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushPython.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushRuby.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushSass.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushScala.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushSql.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushVb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shBrushXml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\scripts\shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shCoreRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\DOCUMENTATION\syntax-highlighter\styles\shThemeRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\blog-archive.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\blog-single.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\contact.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\course-archive.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\course-single.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\animate.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\bootstrap.min.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\jquery.tosrus.all.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\slick.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\superslides.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\bridge-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\dark-red-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\default-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\green-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\lite-blue-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\orange-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\pink-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\purple-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\red-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\yellow-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\events-archive.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\events-single.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\gallery.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\author.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\author2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\bootom-top-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-nav-next.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-nav-prev.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-single.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events-slider1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events-slider2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events-slider3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\nav-next.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\nav-prev.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\nav.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\news.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\notice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\side-add.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\skills_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\navigation-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\wpf-favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\index.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\FlameViewportScale.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\custom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.animate-enhanced.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.superslides.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.tosrus.min.all.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\queryloader2.min.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\slick.min.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\animate.css" afterPath="$PROJECT_DIR$/public/css/animate.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\jquery.tosrus.all.css" afterPath="$PROJECT_DIR$/public/css/jquery.tosrus.all.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\slick.css" afterPath="$PROJECT_DIR$/public/css/slick.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\superslides.css" afterPath="$PROJECT_DIR$/public/css/superslides.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\bridge-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/bridge-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\dark-red-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/dark-red-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\default-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/default-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\green-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/green-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\lite-blue-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/lite-blue-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\orange-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/orange-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\pink-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/pink-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\purple-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/purple-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\red-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/red-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\themes\yellow-theme.css" afterPath="$PROJECT_DIR$/public/css/themes/yellow-theme.css" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\FontAwesome.otf" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\author.jpg" afterPath="$PROJECT_DIR$/public/images/author.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\author2.jpg" afterPath="$PROJECT_DIR$/public/images/author2.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\banner.jpg" afterPath="$PROJECT_DIR$/public/images/banner.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\blog.jpg" afterPath="$PROJECT_DIR$/public/images/blog.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\bootom-top-arrow.png" afterPath="$PROJECT_DIR$/public/images/bootom-top-arrow.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-1.jpg" afterPath="$PROJECT_DIR$/public/images/course-1.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-2.jpg" afterPath="$PROJECT_DIR$/public/images/course-2.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-3.jpg" afterPath="$PROJECT_DIR$/public/images/course-3.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-nav-next.png" afterPath="$PROJECT_DIR$/public/images/course-nav-next.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-nav-prev.png" afterPath="$PROJECT_DIR$/public/images/course-nav-prev.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\course-single.jpg" afterPath="$PROJECT_DIR$/public/images/course-single.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events-slider1.jpg" afterPath="$PROJECT_DIR$/public/images/events-slider1.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events-slider2.jpg" afterPath="$PROJECT_DIR$/public/images/events-slider2.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events-slider3.jpg" afterPath="$PROJECT_DIR$/public/images/events-slider3.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\events.jpg" afterPath="$PROJECT_DIR$/public/images/events.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\favicon.ico" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-large1.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-large2.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-large3.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-large4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-large4.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-small1.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-small2.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-small3.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\gallery\img-small4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/img-small4.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\logo.png" afterPath="$PROJECT_DIR$/public/images/logo.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\nav-next.png" afterPath="$PROJECT_DIR$/public/images/nav-next.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\nav-prev.png" afterPath="$PROJECT_DIR$/public/images/nav-prev.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\nav.png" afterPath="$PROJECT_DIR$/public/images/nav.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\news.jpg" afterPath="$PROJECT_DIR$/public/images/news.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\notice.jpg" afterPath="$PROJECT_DIR$/public/images/notice.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\side-add.jpg" afterPath="$PROJECT_DIR$/public/images/side-add.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\skills_bg.jpg" afterPath="$PROJECT_DIR$/public/images/skills_bg.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\2.jpg" afterPath="$PROJECT_DIR$/public/images/slider/2.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\3.jpg" afterPath="$PROJECT_DIR$/public/images/slider/3.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\4.jpg" afterPath="$PROJECT_DIR$/public/images/slider/4.jpg" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\slider\navigation-icon.png" afterPath="$PROJECT_DIR$/public/images/slider/navigation-icon.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\img\wpf-favicon.png" afterPath="$PROJECT_DIR$/public/images/wpf-favicon.png" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\FlameViewportScale.js" afterPath="$PROJECT_DIR$/public/js/FlameViewportScale.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\custom.js" afterPath="$PROJECT_DIR$/public/js/custom.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.animate-enhanced.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.animate-enhanced.min.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/public/js/jquery.easing.1.3.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.superslides.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.superslides.min.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\jquery.tosrus.min.all.js" afterPath="$PROJECT_DIR$/public/js/jquery.tosrus.min.all.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\queryloader2.min.js" afterPath="$PROJECT_DIR$/public/js/queryloader2.min.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\wow.min.js" afterPath="$PROJECT_DIR$/public/js/wow.min.js" />
-      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/404.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/404.erb" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\license-README-FIRST.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\sinatra1\views\wpf-degree\scholarship.erb" afterPath="" />
+      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\css\estilos-css.erb" afterPath="$PROJECT_DIR$/views/estilos-css.erb" />
+      <change type="MOVED" beforePath="C:\Sites\sinatra1\views\wpf-degree\js\estilos.erb" afterPath="$PROJECT_DIR$/views/estilos.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.rb" afterPath="$PROJECT_DIR$/app.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/blog-archive.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/blog-archive.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/blog-single.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/blog-single.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/contact.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/contact.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/course-archive.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/course-archive.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/course-single.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/course-single.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/events-archive.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/events-archive.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/events-single.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/events-single.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/gallery.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/gallery.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/wpf-degree/index.erb" afterPath="$PROJECT_DIR$/views/wpf-degree/index.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/gallery.erb" afterPath="$PROJECT_DIR$/views/gallery.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/inicio.erb" afterPath="$PROJECT_DIR$/views/inicio.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="E:/Estudio y Trabajo/IRSTRAT/iredge/.idea/workspace.xml" afterPath="E:/Estudio y Trabajo/IRSTRAT/iredge/.idea/workspace.xml" />
     </list>
     <ignored path="sinatra1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,34 +207,54 @@
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="estilos.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/wpf-degree/js/estilos.erb">
+      <file leaf-file-name="simple-slider.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/simple-slider.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+            <state vertical-scroll-proportion="-18.307692">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layouts/simple.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56672156">
+              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/head.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/footer.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.3846154">
+              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="estilos-css.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/wpf-degree/css/estilos-css.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="en-numeros.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../fibramty/views/es/vistas/Menu-1/en-numeros.erb">
+        <entry file="file://$PROJECT_DIR$/views/estilos-css.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -153,31 +263,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../fibramty/views/es/layouts/generales/footer.erb">
+      <file leaf-file-name="estilos.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/estilos.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.76923">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/wpf-degree/index.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1785715">
-              <caret line="857" column="39" selection-start-line="857" selection-start-column="33" selection-end-line="857" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.7649">
-              <caret line="1420" column="32" selection-start-line="1420" selection-start-column="32" selection-end-line="1420" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,14 +288,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/gallery.erb" />
         <option value="$PROJECT_DIR$/views/wpf-degree/js/queryloader2-min-js.erb" />
-        <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/public/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/views/wpf-degree/css/estilos-css.erb" />
         <option value="$PROJECT_DIR$/views/wpf-degree/js/estilos.erb" />
-        <option value="$PROJECT_DIR$/views/wpf-degree/index.erb" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/views/wpf-degree/css/estilos-css.erb" />
+        <option value="$PROJECT_DIR$/views/about_us.erb" />
+        <option value="$PROJECT_DIR$/views/wpf-degree/index.erb" />
+        <option value="$PROJECT_DIR$/views/wpf-degree/course-archive.erb" />
+        <option value="$PROJECT_DIR$/views/course-archive.erb" />
+        <option value="$PROJECT_DIR$/views/scholarship.erb" />
+        <option value="$PROJECT_DIR$/views/events-single.erb" />
+        <option value="$PROJECT_DIR$/views/gallery.erb" />
+        <option value="$PROJECT_DIR$/views/blog-archive.erb" />
+        <option value="$PROJECT_DIR$/views/blog-single.erb" />
+        <option value="$PROJECT_DIR$/views/events-archive.erb" />
+        <option value="$PROJECT_DIR$/views/contact.erb" />
+        <option value="$PROJECT_DIR$/views/inicio.erb" />
+        <option value="$PROJECT_DIR$/views/layouts/head.erb" />
+        <option value="$PROJECT_DIR$/views/layouts/footer.erb" />
+        <option value="$PROJECT_DIR$/views/layouts/simple-slider.erb" />
+        <option value="$PROJECT_DIR$/app.rb" />
+        <option value="$PROJECT_DIR$/views/layouts/simple.erb" />
       </list>
     </option>
   </component>
@@ -222,7 +326,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -245,8 +349,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,7 +363,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra1" />
+              <option name="myItemId" value="fibramty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,28 +374,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sinatra1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wpf-degree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,66 +388,57 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinatra1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fibramty" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testrails" />
     <property name="project.settings.patched" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Sites\sinatra1\views" />
       <recent name="C:\Sites\sinatra1\views\wpf-degree\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sites\sinatra1\views" />
       <recent name="C:\Sites\sinatra1\public\css" />
       <recent name="C:\Sites\sinatra1\views\wpf-degree\js" />
       <recent name="C:\Sites\sinatra1\public" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Rails.Production: iredge">
+    <configuration default="false" name="IRB console: iredge" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="iredge" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:/Ruby210/Ruby21-x64/bin/irb" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -399,6 +470,23 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
+    <configuration default="true" type="IrbRunConfigurationType" factoryName="IRB console">
+      <module name="" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -428,6 +516,48 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -479,6 +609,18 @@
       <envs />
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development: iredge" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: iredge" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec: iredge" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test: iredge" />
+      <item index="4" class="java.lang.String" itemvalue="IRB console.IRB console: iredge" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console: iredge" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -495,26 +637,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -536,31 +678,7 @@
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/gallery.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="712" column="61" selection-start-line="712" selection-start-column="61" selection-end-line="712" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,28 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/css/estilos-css.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/404.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/blog-archive.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -649,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fibramty/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="40" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../fibramty/views/es/vistas/index.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.230769">
@@ -677,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fibramty/views/global/layouts/simple.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../fibramty/views/global/generales/head.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53212523">
@@ -691,73 +773,226 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../fibramty/views/es/vistas/Menu-1/en-numeros.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fibramty/views/es/layouts/generales/footer.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8039539">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8120063">
+          <caret line="1831" column="4" selection-start-line="1831" selection-start-column="4" selection-end-line="1831" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Estudio y Trabajo/IRSTRAT/iredge/db/migrate/20150505175401_create_companies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Estudio y Trabajo/IRSTRAT/iredge/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Estudio y Trabajo/IRSTRAT/iredge/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Estudio y Trabajo/IRSTRAT/iredge/app/controllers/api/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29541865">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Estudio y Trabajo/IRSTRAT/iredge/app/controllers/companies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.444445">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fibramty/views/global/bloques/copyrights.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fibramty/views/en/vistas/Menu-4/ri-distribuciones.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3461537">
+          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fibramty/views/global/layouts/simple.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fibramty/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.807229">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/course-archive.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="217" column="35" selection-start-line="217" selection-start-column="35" selection-end-line="217" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/scholarship.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0882353">
+          <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
+          <folding>
+            <element signature="n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/events-single.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6764706">
+          <caret line="75" column="51" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/gallery.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16803955">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.4117647">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog-archive.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14705883">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/events-archive.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6089965">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog-single.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29411766">
+          <caret line="169" column="74" selection-start-line="169" selection-start-column="74" selection-end-line="169" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contact.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8545455">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inicio.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5041186">
+          <caret line="674" column="20" selection-start-line="674" selection-start-column="20" selection-end-line="674" selection-end-column="20" />
+          <folding>
+            <element signature="n#section#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/estilos-css.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/estilos.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/head.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/footer.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3846154">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fibramty/views/es/vistas/Menu-1/en-numeros.erb">
+    <entry file="file://$PROJECT_DIR$/views/layouts/simple-slider.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fibramty/views/es/layouts/generales/footer.erb">
+    <entry file="file://$PROJECT_DIR$/views/layouts/simple.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.76923">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/css/estilos-css.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/js/estilos.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wpf-degree/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1785715">
-          <caret line="857" column="39" selection-start-line="857" selection-start-column="33" selection-end-line="857" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.7649">
-          <caret line="1420" column="32" selection-start-line="1420" selection-start-column="32" selection-end-line="1420" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.56672156">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding />
         </state>
       </provider>

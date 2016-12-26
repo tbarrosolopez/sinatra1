@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../fibramty/.idea/fibramty.iml" filepath="$PROJECT_DIR$/../fibramty/.idea/fibramty.iml" />
+      <module fileurl="file://E:/Estudio y Trabajo/IRSTRAT/iredge/.idea/iredge.iml" filepath="E:/Estudio y Trabajo/IRSTRAT/iredge/.idea/iredge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sinatra1.iml" filepath="$PROJECT_DIR$/.idea/sinatra1.iml" />
     </modules>
   </component>
